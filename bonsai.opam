@@ -11,22 +11,12 @@ build: [
 ]
 depends: [
   "ocaml" {>= "4.08.0"}
-  "async_extra"
-  "async_js"
-  "async_kernel"
-  "async_rpc_kernel"
-  "async_rpc_websocket"
   "core_kernel"
-  "expect_test_helpers_core"
   "incr_dom"
   "incr_map"
-  "patdiff"
   "ppx_jane"
   "ppx_pattern_bind"
-  "virtual_dom"
-  "cohttp-async"             {>= "2.5.4"}
   "dune"                     {>= "2.0.0"}
-  "js_of_ocaml-ppx"          {>= "3.9.0"}
   "re"                       {>= "1.8.0"}
 ]
 synopsis: "A library for building dynamic webapps, using Js_of_ocaml"

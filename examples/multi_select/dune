@@ -1,2 +1,0 @@
-(executables (names main) (libraries bonsai_web_ui_multi_select)
- (preprocess (pps ppx_jane)))
